@@ -16,8 +16,6 @@ const actions = {
       "https://jsonplaceholder.typicode.com/todos"
     );
 
-    console.log(response.data);
-
     commit("setTodos", response.data);
   }
 };
